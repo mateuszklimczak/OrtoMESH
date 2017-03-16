@@ -7,7 +7,7 @@ namespace OrtoMESH
 {
 	public partial class PatientPage : ContentPage
 	{
-		void Handle_Clicked(object sender, System.EventArgs e)
+		void BackButton_Clicked(object sender, System.EventArgs e)
 		{
 			Navigation.PopModalAsync();
 		}

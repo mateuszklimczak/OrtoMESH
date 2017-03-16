@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundColor="White" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.PatientPage">
-	<StackLayout VerticalOptions="EndAndExpand">
-		<Button Text="Back" TextColor="Black" Clicked="Back_Clicked"/>
+	<StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+		<Label Text="Witaj Mateusz!" TextColor="Black" />
+		<Label Text="Twój dzień leczenia: 1"  />
+		<ProgressBar />
+		<Button Text="Start"
+        BackgroundColor="Green"
+		TextColor="White"	
+        BorderRadius = "90"/>
+		
+		
+		<Button Text="Back" TextColor="Black" Clicked="BackButton_Clicked"/>
 	</StackLayout>
 </ContentPage>

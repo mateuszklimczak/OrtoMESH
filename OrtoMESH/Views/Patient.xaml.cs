@@ -19,7 +19,7 @@ namespace OrtoMESH
 
 		void SignIn_Clicked(object sender, System.EventArgs e)
 		{
-			Navigation.PushModalAsync(new DoctorPage());
+			Navigation.PushModalAsync(new PatientPage());
 		}
 		public Patient()
 		{
