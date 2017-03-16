@@ -7,62 +7,25 @@ namespace OrtoMESH
 {
 	public partial class Patient : ContentPage
 	{
-		public Patient()
+		void BackButton_Clicked(object sender, System.EventArgs e)
 		{
-			BackgroundColor = Color.White;
-			InitializeComponent();
-			Content = new StackLayout()
-			{
-				HorizontalOptions = LayoutOptions.CenterAndExpand,
-				VerticalOptions = LayoutOptions.CenterAndExpand,
-				Children = { login, password, singin, singup, back }
-			};
-
-			singin.Clicked += (sender, e) =>
-			{
-				Navigation.PushModalAsync(new DoctorPage());
-			};
-
-			singup.Clicked += (sender, e) =>
-			{
-				Navigation.PushModalAsync(new RegistrationPagePatient());
-			};
-
-			back.Clicked += (sender, e) =>
-			{
-				Navigation.PopModalAsync();
-			};
+			Navigation.PopModalAsync();
 		}
 
-		Entry login = new Entry()
+		void SignUp_Clicked(object sender, System.EventArgs e)
 		{
-			Text = "Login",
-		};
+			Navigation.PushModalAsync(new RegistrationPage());
+		}
 
-		Entry password = new Entry()
+		void SignIn_Clicked(object sender, System.EventArgs e)
 		{
-			Text = "Password",
-		};
+			Navigation.PushModalAsync(new DoctorPage());
+		}
+		public Patient()
+		{
+			InitializeComponent();
 
-		Button singin = new Button()
-		{
-			Text = "Sing in",
-			TextColor = Color.Black,
-			WidthRequest = 240,
-		};
-
-		Button singup = new Button()
-		{
-			Text = "Sing up",
-			TextColor = Color.Black,
-			WidthRequest = 240,
-		};
-
-		Button back = new Button()
-		{
-			Text = "Back",
-			TextColor = Color.Black,
-			WidthRequest = 240,
-		};
+		
+		}
 	}
 }

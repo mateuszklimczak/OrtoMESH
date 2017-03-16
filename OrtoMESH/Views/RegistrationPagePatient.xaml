@@ -1,5 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.RegistrationPagePatient">
-	<ContentPage.Content>
-	</ContentPage.Content>
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundColor="White" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.RegistrationPagePatient">
+	<StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+		<Entry x:Name="RegistrationNameEntry" Text="Name" TextColor="Black" />
+		<Entry x:Name="RegistrationSurnameEntry" Text="Surname" TextColor="Black" />
+		<Entry x:Name="RegistrationCityEntry" Text="City" TextColor="Black" />
+		<Entry x:Name="RegistrationNumberEntry" Text="Phone number" TextColor="Black" />
+		<Button Text="Sign Up" TextColor="Black" Clicked="SignUpButton_Clicked"/>
+		<Button Text="Back" TextColor="Black" Clicked="BackButton_Clicked" VerticalOptions="EndAndExpand"/>
+	</StackLayout>
 </ContentPage>

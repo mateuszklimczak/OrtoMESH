@@ -7,25 +7,15 @@ namespace OrtoMESH
 {
 	public partial class PatientPage : ContentPage
 	{
-		public PatientPage()
+		void Handle_Clicked(object sender, System.EventArgs e)
 		{
-			BackgroundColor = Color.White;
-			InitializeComponent();
-			Content = new StackLayout()
-			{ 
-				Children = { back }
-			};
-
-			back.Clicked += (sender, e) =>
-			{
-				Navigation.PopModalAsync();
-			};
+			Navigation.PopModalAsync();
 		}
 
-		Button back = new Button()
+		public PatientPage()
 		{
-			Text = "back",
-			TextColor = Color.Black, 
-		};
+			InitializeComponent();
+		
+		}
 	}
 }

@@ -7,40 +7,22 @@ namespace OrtoMESH
 {
 	public partial class MainPage : ContentPage
 	{
-		public MainPage()
+		void PushTo_Doctor(object sender, System.EventArgs e)
 		{
-			BackgroundImage = "backgroundimage.ortomesh.jpg" ;
-			InitializeComponent();
-			Content = new StackLayout()
-			{
-				HorizontalOptions = LayoutOptions.CenterAndExpand,
-				VerticalOptions = LayoutOptions.CenterAndExpand,
-				Children = { Patient, Doctor }
-			};
-			Patient.Clicked += (sender, e) =>
-			{
-				Navigation.PushModalAsync(new Patient());
-			};
-
-			Doctor.Clicked += (sender, e) =>
-			{
-				Navigation.PushModalAsync(new Doctor());
-			};
+			Navigation.PushModalAsync(new Doctor());
 		}
 
-		Button Patient = new Button()
+		void PushTo_Patient(object sender, System.EventArgs e)
 		{
-			Text = "Patient",
-			TextColor = Color.Black,
-			WidthRequest = 240,
+			Navigation.PushModalAsync(new Patient());
+		}
 
-		};
+		public MainPage()
+		{
+			InitializeComponent();
+	
+		}
 
-		Button Doctor = new Button()
-		{ 
-		    Text = "Doctor",
-			TextColor = Color.Black,
-			WidthRequest = 240,
-		};
+	
 	}
 }
