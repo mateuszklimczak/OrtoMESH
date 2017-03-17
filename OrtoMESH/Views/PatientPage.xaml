@@ -34,9 +34,9 @@
 
 				 />
 			<Button 
-				Text="Kalendar" 
+				Text="Calendar" 
 				TextColor="Black" 
-				Clicked="CalendarView_Clicked"
+				Clicked="PatientCalendarPage_Clicked"
 				HorizontalOptions="CenterAndExpand"
 
 				/>
