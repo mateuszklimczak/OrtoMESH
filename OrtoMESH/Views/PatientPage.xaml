@@ -1,15 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundColor="White" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.PatientPage">
-	<StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-		<Label Text="Witaj Mateusz!" TextColor="Black" />
-		<Label Text="Twój dzień leczenia: 1"  />
-		<ProgressBar />
-		<Button Text="Start"
-        BackgroundColor="Green"
-		TextColor="White"	
-        BorderRadius = "90"/>
+	<StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+		<Label 
+			Text="Witaj Mateusz!" 
+			TextColor="Black"
+			Margin="0,50,0,0"
+			FontSize="40"
+			HorizontalOptions="CenterAndExpand"
+			VerticalOptions="StartAndExpand"/>
+		<Label 
+			Text="Twój dzień leczenia: 1"
+			HorizontalOptions="CenterAndExpand"/>
+		<ProgressBar 
+			Margin="20,0,20,0"
+			BackgroundColor="Black"/>
+		<Button 
+			Text="Start"
+			FontAttributes="Bold"
+        	BackgroundColor="Green"
+			TextColor="White"	
+        	BorderRadius = "50"
+			WidthRequest="100"
+			HeightRequest="100"
+			VerticalOptions="Center"
+			HorizontalOptions="Center"
+			Margin="0,50,0,150"/>
 		
-		
-		<Button Text="Back" TextColor="Black" Clicked="BackButton_Clicked"/>
+		<StackLayout Orientation="Horizontal">
+			<Button 
+				Text="Patient" 
+				TextColor="Black"
+				HorizontalOptions="CenterAndExpand"
+
+				 />
+			<Button 
+				Text="Kalendar" 
+				TextColor="Black" 
+				Clicked="CalendarView_Clicked"
+				HorizontalOptions="CenterAndExpand"
+
+				/>
+		</StackLayout>
+		<Button 
+			Text="Back" 
+			TextColor="Black" 
+			Clicked="BackButton_Clicked"/>
 	</StackLayout>
+
 </ContentPage>
