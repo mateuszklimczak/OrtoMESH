@@ -9,8 +9,8 @@ namespace OrtoMESH
 	{
 		void Start_Clicked(object sender, System.EventArgs e)
 		{
-			DisplayAlert("Lipus treatment","","Start");
 			Navigation.PushModalAsync(new LipusPage());
+			DisplayAlert("Lipus treatment", "I have read the Lipus manual", "Start");
 		}
 
 		void BackButton_Clicked(object sender, System.EventArgs e)

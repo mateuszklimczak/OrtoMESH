@@ -37,7 +37,6 @@
 			<Button 
 				Text="Calendar" 
 				TextColor="Black" 
-				Clicked="PatientCalendarPage_Clicked"
 				HorizontalOptions="CenterAndExpand"
 
 				/>
