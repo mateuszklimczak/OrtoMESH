@@ -54,6 +54,12 @@
     <EmbeddedResource Include="Views\PatientCalendar.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\InstructionsLIPUS.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LipusPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -86,6 +92,12 @@
     </Compile>
     <Compile Include="Views\PatientCalendar.xaml.cs">
       <DependentUpon>PatientCalendar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\InstructionsLIPUS.xaml.cs">
+      <DependentUpon>InstructionsLIPUS.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LipusPage.xaml.cs">
+      <DependentUpon>LipusPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
