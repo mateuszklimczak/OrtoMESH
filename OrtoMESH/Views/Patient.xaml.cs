@@ -14,7 +14,7 @@ namespace OrtoMESH
 
 		void SignUp_Clicked(object sender, System.EventArgs e)
 		{
-			Navigation.PushModalAsync(new RegistrationPage());
+			Navigation.PushModalAsync(new RegistrationPagePatient());
 		}
 
 		void SignIn_Clicked(object sender, System.EventArgs e)
