@@ -38,6 +38,7 @@
 				Text="Calendar" 
 				TextColor="Black" 
 				HorizontalOptions="CenterAndExpand"
+				Clicked="CalendarPage_Clicked"
 
 				/>
 		</StackLayout>

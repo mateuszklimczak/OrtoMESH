@@ -57,6 +57,9 @@
     <EmbeddedResource Include="Views\LipusPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\CalendarPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -92,6 +95,9 @@
     </Compile>
     <Compile Include="Views\LipusPage.xaml.cs">
       <DependentUpon>LipusPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CalendarPage.xaml.cs">
+      <DependentUpon>CalendarPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
