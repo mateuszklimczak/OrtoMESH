@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.LipusPage">
-
-	<StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-		<Image Source="OrtoLipus.jpg" Margin="60,180,0,0"/>
-		
-		<ProgressBar 
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundImage="2_3.jpg" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.LipusPage">
+		<StackLayout Margin="0,20,0,0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+			<ProgressBar 
 			x:Name="progressBar"
 			Margin="10,50,10,100"
 			Progress="0.0"
 			BackgroundColor="#85cefb"
 			/>
-		<Button 
+			<Image Source="BezTła.png" Margin="40,160,0,0"/>
+			<Button 
 			Text="Back" 
 			TextColor="Black" 
 			WidthRequest="240" 
 			Clicked="BackButton_Clicked"/>
 	</StackLayout>	
-
 </ContentPage>

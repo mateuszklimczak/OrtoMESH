@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.ProcessPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundImage="2_3.jpg" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.ProcessPage">
 	<StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-		<Entry Placeholder="Name" />
-		<Entry Placeholder="Surname" />
-		<Entry Placeholder="Gender"/>
-		<Entry Placeholder="Height"/>
-		<Entry Placeholder="Weight"/>	
-		<Entry Placeholder="PESEL" />
-		<StackLayout Orientation="Horizontal">
-			<Label Text="Date of birth" />		
-		<DatePicker />
-		</StackLayout>
-		<Button Text="Confirm" TextColor="Black" />
+		<Entry Placeholder="Name" WidthRequest="240" />
+		<Entry Placeholder="Surname" WidthRequest="240"/>
+		<Entry Placeholder="Gender" WidthRequest="240"/>
+		<Entry Placeholder="Height" WidthRequest="240"/>
+		<Entry Placeholder="Weight" WidthRequest="240"/>	
+		<Entry Placeholder="PESEL" WidthRequest="240" />
+			<StackLayout Orientation="Horizontal">
+				<Label Text="Date of birth" />		
+				<DatePicker />
+			</StackLayout>
+		<Button Text="Scan" TextColor="Black" FontSize="20"/>
+		<Button Text="Confirm" TextColor="Black" FontSize="20" Clicked="Confirm_Clicked" />
 		<Button 
 			Text="Back" 
 			TextColor="Black" 
+			FontSize="20"
 			WidthRequest="240" 
 			Clicked="BackButton_Clicked"/>
 	</StackLayout>

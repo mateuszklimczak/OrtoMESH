@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundColor="White" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.DoctorPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundImage="2_3.jpg" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.DoctorPage">
 	<StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
 
 		<Button
@@ -11,9 +11,7 @@
 			Text="Search patient"
 			TextColor="Black"
 			FontSize="20"
-			Clicked="SearchPatientButton_Clicked"
-			/>
-		
+			Clicked="SearchPatientButton_Clicked"/>
 		<Button 
 			Text="Back" 
 			TextColor="Black" 
