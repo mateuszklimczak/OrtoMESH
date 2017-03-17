@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.LipusPage">
+<<<<<<< HEAD
 	<StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
 		<Image Source="OrtoLipus.jpg" Margin="60,180,0,0"/>
 	</StackLayout>
+=======
+	<StackLayout Margin="0,20,0,0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+		<Label 
+			x:Name="TimerLabel" 
+			TextColor="Black" />
+		>
+		<ProgressBar 
+			x:Name="ProgressBar"
+			Progress="0"/>
+		<Button 
+			Text="Back" 
+			TextColor="Black" 
+			WidthRequest="240" 
+			Clicked="BackButton_Clicked"/>
+	</StackLayout>	
+>>>>>>> 3e63ed0... .
 </ContentPage>
