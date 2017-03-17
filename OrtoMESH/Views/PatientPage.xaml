@@ -15,11 +15,11 @@
 		<ProgressBar 
 			HeightRequest="20"
 			Margin="20,0,20,0"
-			BackgroundColor="Green"/>
+			BackgroundColor="#85cefb"/>
 		<Button 
 			Text="Start"
 			FontAttributes="Bold"
-        	BackgroundColor="Green"
+        	BackgroundColor="#85cefb"
 			TextColor="White"
 			Clicked="Start_Clicked"
         	BorderRadius = "100"
