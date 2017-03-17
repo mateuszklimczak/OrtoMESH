@@ -10,19 +10,21 @@
 			VerticalOptions="StartAndExpand"/>
 		<Label 
 			Text="Twój dzień leczenia: 1"
+			FontSize="25"
 			HorizontalOptions="CenterAndExpand"/>
 		<ProgressBar 
+			HeightRequest="20"
 			Margin="20,0,20,0"
-			BackgroundColor="Black"/>
+			BackgroundColor="Green"/>
 		<Button 
 			Text="Start"
 			FontAttributes="Bold"
         	BackgroundColor="Green"
 			TextColor="White"
 			Clicked="Start_Clicked"
-        	BorderRadius = "50"
-			WidthRequest="100"
-			HeightRequest="100"
+        	BorderRadius = "100"
+			WidthRequest="200"
+			HeightRequest="200"
 			VerticalOptions="Center"
 			HorizontalOptions="Center"
 			Margin="0,50,0,150"/>
@@ -31,12 +33,14 @@
 			<Button 
 				Text="Patient" 
 				TextColor="Black"
+				FontSize="20"
 				HorizontalOptions="CenterAndExpand"
 
 				 />
 			<Button 
 				Text="Calendar" 
 				TextColor="Black" 
+				FontSize="20"
 				HorizontalOptions="CenterAndExpand"
 				Clicked="CalendarPage_Clicked"
 
@@ -44,7 +48,8 @@
 		</StackLayout>
 		<Button 
 			Text="Back" 
-			TextColor="Black" 
+			TextColor="Black"
+			FontSize="20"
 			Clicked="BackButton_Clicked"/>
 	</StackLayout>
 

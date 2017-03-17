@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundImage="" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.InstructionsLIPUS">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.InstructionsLIPUS">
 	<StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-		<Image Source="Logo1.jpg"/>
-		<Button Text="Start" TextColor="Black" Clicked="Start_Clicked"/>
-		<Button Text="Back" TextColor="Black" Clicked="BackButton_Clicked"/>
+		<Image Source="instruction-kopia.jpg" Margin="0,20,0,20"/>
+		<Button Text="Start" TextColor="Black" FontSize="30" Clicked="Start_Clicked"/>
 	</StackLayout>
 </ContentPage>

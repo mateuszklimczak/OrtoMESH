@@ -7,7 +7,7 @@
 		<Entry x:Name="RegistrationAgeEntry" Placeholder="Age" TextColor="Black" />
 		<Entry x:Name="RegistrationNumberEntry" Placeholder="Phone number" TextColor="Black" />
 		<Entry x:Name="RegistrationMailEntry" Placeholder="Mail" TextColor="Black"/>
-		<Button Text="Sign Up" TextColor="Black" Clicked="SignUpButton_Clicked"/>
-		<Button Text="Back" TextColor="Black" Clicked="BackButton_Clicked" VerticalOptions="EndAndExpand"/>
+		<Button Text="Sign Up" TextColor="Black" FontSize="20" Clicked="SignUpButton_Clicked"/>
+		<Button Text="Back" TextColor="Black" FontSize="20" Clicked="BackButton_Clicked" VerticalOptions="EndAndExpand"/>
 	</StackLayout>
 </ContentPage>

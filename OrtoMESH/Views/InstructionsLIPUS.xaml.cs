@@ -13,11 +13,6 @@ namespace OrtoMESH
 			DisplayAlert("Lipus treatment", "I have read the Lipus manual", "Start");
 		}
 
-		void BackButton_Clicked(object sender, System.EventArgs e)
-		{
-			Navigation.PopModalAsync();
-		}
-
 		public InstructionsLIPUS()
 		{
 			InitializeComponent();

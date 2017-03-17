@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundColor="White" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.Patient">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.Patient">
 	<StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
 		<Entry x:Name="PatientLoginEntry" Placeholder="Login" />
 		<Entry x:Name="PatientPassowordEntry" Placeholder="Password" IsPassword="true" />
-		<Button Text="Log In" TextColor="Black" WidthRequest="240" Clicked="LogIn_Clicked"/>
-		<Button Text="Sign Up" TextColor="Black" WidthRequest="240" Clicked="SignUp_Clicked"/>
-		<Button Text="Back" TextColor="Black" WidthRequest="240" Clicked="BackButton_Clicked"/>
+		<Button Text="Log In" TextColor="Black" FontSize="20" WidthRequest="240" Clicked="LogIn_Clicked"/>
+		<Button Text="Sign Up" TextColor="Black" FontSize="20" WidthRequest="240" Clicked="SignUp_Clicked"/>
+		<Button Text="Back" TextColor="Black" FontSize="20" WidthRequest="240" Clicked="BackButton_Clicked"/>
 	</StackLayout>
 </ContentPage>

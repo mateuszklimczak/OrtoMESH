@@ -21,11 +21,11 @@ namespace OrtoMESH
 		{
 			bool isLoginOK = false;
 			bool isPasswordOk = false;
-			if (PatientLoginEntry.Text.Contains("Mateusz.Klimczak"))
+			if (PatientLoginEntry.Text.Contains("Test") && PatientLoginEntry.Text.Length >= 0 )
 			{
 				isLoginOK = true;
 			}
-			if (PatientPassowordEntry.Text.Contains("Test"))
+			if (PatientPassowordEntry.Text.Contains("Test") && PatientPassowordEntry.Text.Length >= 0)
 			{
 				isPasswordOk = true;
 			}
