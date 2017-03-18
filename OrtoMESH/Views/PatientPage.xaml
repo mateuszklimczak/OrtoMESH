@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundImage="2_3.jpg" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.PatientPage">
-	<StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+	<StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
 		<Label 
 			Text="Witaj Mateusz!" 
 			TextColor="Black"
-			Margin="0,50,0,0"
+			Margin="0,140,0,0"
 			FontSize="40"
 			HorizontalOptions="CenterAndExpand"
 			VerticalOptions="StartAndExpand"/>
 		<Label 
 			Text="Twój dzień leczenia: 1"
-			FontSize="25"
+			FontSize="30"
 			HorizontalOptions="CenterAndExpand"/>
 		<ProgressBar 
-			HeightRequest="20"
 			Margin="20,0,20,0"
 			BackgroundColor="#85cefb"/>
 		<Button 
@@ -38,8 +37,8 @@
 
 				 />
 			<Button 
-				Text="Calendar" 
-				TextColor="Black" 
+				Text="Calendar"
+				TextColor="Black"
 				FontSize="20"
 				HorizontalOptions="CenterAndExpand"
 				Clicked="CalendarPage_Clicked"
@@ -50,6 +49,7 @@
 			Text="Back" 
 			TextColor="Black"
 			FontSize="20"
+			Margin="0,0,0,50"
 			Clicked="BackButton_Clicked"/>
 	</StackLayout>
 

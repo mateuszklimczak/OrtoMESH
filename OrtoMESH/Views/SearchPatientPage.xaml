@@ -4,10 +4,12 @@
 	<ListView 
 			x:Name="patients"
 			ItemsSource="{Binding .}"
-			Margin="0,20,0,0"/>
+			Margin="0,140,0,50"
+			BackgroundColor="Transparent"/>
 	<Button 
 			Text="Back" 
 			TextColor="Black" 
+			FontSize="20"
 			Clicked="Back_Clicked"
 			Margin="0,30,0,0"/>
 	

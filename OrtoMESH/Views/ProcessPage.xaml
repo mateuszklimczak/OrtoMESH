@@ -9,7 +9,7 @@
 		<Entry Placeholder="PESEL" WidthRequest="240" />
 			<StackLayout Orientation="Horizontal">
 				<Label Text="Date of birth" />		
-				<DatePicker />
+				<DatePicker  WidthRequest="140"/>
 			</StackLayout>
 		<Button Text="Scan" TextColor="Black" FontSize="20"/>
 		<Button Text="Confirm" TextColor="Black" FontSize="20" Clicked="Confirm_Clicked" />

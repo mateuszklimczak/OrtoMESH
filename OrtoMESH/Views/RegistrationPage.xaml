@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundImage="2_3.jpg" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.RegistrationPage">
 	<StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-		<Entry x:Name="RegistrationNameEntry" Placeholder="Name" TextColor="Black" />
-		<Entry x:Name="RegistrationSurnameEntry" Placeholder="Surname" TextColor="Black" />
-		<Entry x:Name="RegistrationClinicEntry" Placeholder="Clinic" TextColor="Black" />
-		<Entry x:Name="RegistrationNumberEntry" Placeholder="Phone number" TextColor="Black" />
-		<Button Text="Sign Up" TextColor="Black" FontSize="20" Clicked="SignUpButton_Clicked"/>
-		<Button Text="Back" TextColor="Black" FontSize="20" Clicked="BackButton_Clicked"/>
+		<Entry x:Name="RegistrationNameEntry" WidthRequest="240" Placeholder="Name" TextColor="Black" />
+		<Entry x:Name="RegistrationSurnameEntry" WidthRequest="240" Placeholder="Surname" TextColor="Black" />
+		<Entry x:Name="RegistrationClinicEntry" WidthRequest="240" Placeholder="Clinic" TextColor="Black" />
+		<Entry x:Name="RegistrationNumberEntry" WidthRequest="240" Placeholder="Phone number" TextColor="Black" />
+		<Button Text="Sign Up" TextColor="Black" BackgroundColor="Transparent" FontSize="20" Clicked="SignUpButton_Clicked"/>
+		<Button Text="Back" TextColor="Black" BackgroundColor="Transparent" FontSize="20" Clicked="BackButton_Clicked"/>
 	</StackLayout>
 </ContentPage>
  

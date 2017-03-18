@@ -15,11 +15,14 @@ namespace OrtoMESH
 		public SearchPatientPage()
 		{
 			InitializeComponent();
-			this.BindingContext = new[] {
+			this.BindingContext = new[] 
+			{
 				"Jan Kowalski",
 				"Adam Nowak",
-				"Jezus Maria",
-				"Antonina Kowalewicz" };
+				"Tomasz Ginda",
+				"Jakub Borgosz",
+				"Mateusz Klimczak", 
+			};
 
 		}
 	}

@@ -3,15 +3,17 @@
 		<StackLayout Margin="0,20,0,0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
 			<ProgressBar 
 			x:Name="progressBar"
-			Margin="10,50,10,100"
+			Margin="10,110,10,90"
 			Progress="0.0"
 			BackgroundColor="#85cefb"
 			/>
-			<Image Source="BezTła.png" Margin="40,160,0,0"/>
+			<Image Source="BezTła.png" Margin="20,130,20,40"/>
 			<Button 
 			Text="Back" 
 			TextColor="Black" 
+			FontSize="20"
 			WidthRequest="240" 
+			Margin="0,0,0,20"
 			Clicked="BackButton_Clicked"/>
 	</StackLayout>	
 </ContentPage>

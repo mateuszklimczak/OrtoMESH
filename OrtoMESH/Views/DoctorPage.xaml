@@ -5,16 +5,17 @@
 		<Button
 			Text="Add healing process"
 			TextColor="Black"
-			FontSize="20"
+			FontSize="30"
 			Clicked="AddProcessButton_Clicked"/>
 		<Button
 			Text="Search patient"
 			TextColor="Black"
-			FontSize="20"
+			FontSize="30"
 			Clicked="SearchPatientButton_Clicked"/>
 		<Button 
 			Text="Back" 
 			TextColor="Black" 
+			FontSize="20"
 			Clicked="Back_Clicked"
 			Margin="0,50,0,0"/>
 	</StackLayout>
