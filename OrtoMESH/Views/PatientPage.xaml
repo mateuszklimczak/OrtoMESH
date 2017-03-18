@@ -26,7 +26,7 @@
 			HeightRequest="200"
 			VerticalOptions="Center"
 			HorizontalOptions="Center"
-			Margin="0,50,0,150"/>
+			Margin="0,50,0,70"/>
 		
 		<StackLayout Orientation="Horizontal">
 			<Button 
@@ -49,7 +49,7 @@
 			Text="Back" 
 			TextColor="Black"
 			FontSize="20"
-			Margin="0,0,0,50"
+
 			Clicked="BackButton_Clicked"/>
 	</StackLayout>
 
