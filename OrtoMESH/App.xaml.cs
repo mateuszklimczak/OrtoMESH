@@ -10,7 +10,12 @@ namespace OrtoMESH
 
 			MainPage = new MainPage();
 		}
+		public static Page GetCalendarView()
+		{
+			var formsPage = new NavigationPage(new CalendarPage());
 
+			return formsPage;
+		}
 		protected override void OnStart()
 		{
 			// Handle when your app starts
