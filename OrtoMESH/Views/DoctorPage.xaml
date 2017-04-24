@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundImage="2_3.jpg" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.DoctorPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundImage="iPad.24.04.jpg" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.DoctorPage">
 	<StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
 
 		<Button
@@ -13,7 +13,7 @@
 			FontSize="30"
 			Clicked="SearchPatientButton_Clicked"/>
 		<Button 
-			Text="Back" 
+			Text="Sign out" 
 			TextColor="Black" 
 			FontSize="20"
 			Clicked="Back_Clicked"

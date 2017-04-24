@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundImage="2_3.jpg" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.LipusPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundImage="iPad.24.04.jpg" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.LipusPage">
 		<StackLayout Margin="0,20,0,0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
 			<ProgressBar 
 			x:Name="progressBar"
-			Margin="10,110,10,40"
+			Margin="10,300,10,40"
 			Progress="0.0"
 			BackgroundColor="#85cefb"
 			/>
-			<Image Source="BezTła.png" Margin="20,0,20,80"/>
+			<Image Source="BezTła.png" Margin="20,10,20,20"/>
 			<Button 
 			Text="Back" 
 			TextColor="Black" 
 			FontSize="20"
 			WidthRequest="240" 
+			Margin="0, 0, 0, 10"
 			Clicked="BackButton_Clicked"/>
 	</StackLayout>	
 </ContentPage>

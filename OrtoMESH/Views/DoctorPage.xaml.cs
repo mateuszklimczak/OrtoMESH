@@ -19,7 +19,7 @@ namespace OrtoMESH
 
 		void Back_Clicked(object sender, System.EventArgs e)
 		{
-			Navigation.PopModalAsync();
+			Navigation.PushModalAsync(new MainPage());
 		}
 
 		public DoctorPage()

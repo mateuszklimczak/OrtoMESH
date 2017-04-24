@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundImage="2_3.jpg" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.ProcessPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundImage="iPad.24.04.jpg" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.ProcessPage">
 	<StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
 		<Entry Placeholder="Name" WidthRequest="240" />
 		<Entry Placeholder="Surname" WidthRequest="240"/>
@@ -11,7 +11,7 @@
 				<Label Text="Date of birth" />		
 				<DatePicker  WidthRequest="140"/>
 			</StackLayout>
-		<Button Text="Scan" TextColor="Black" FontSize="20"/>
+		<Button Text="Scan" TextColor="Black" FontSize="20" Clicked="Scan_Clicked"/>
 		<Button Text="Confirm" TextColor="Black" FontSize="20" Clicked="Confirm_Clicked" />
 		<Button 
 			Text="Back" 

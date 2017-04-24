@@ -7,11 +7,6 @@ namespace OrtoMESH
 {
 	public partial class PatientPage : ContentPage 
 	{
-
-		//void PatientCalendarPage_Clicked(object sender, System.EventArgs e)
-		//{
-		//	Navigation.PushModalAsync();
-		//}
 		void Start_Clicked(object sender, System.EventArgs e)
 		{
 			Navigation.PushModalAsync(new InstructionsLIPUS());

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundImage="2_3.jpg" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.PatientPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundImage="iPad.24.04.jpg" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH.PatientPage">
 	<StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
 		<Label 
 			Text="Witaj Mateusz!" 
@@ -46,7 +46,7 @@
 				/>
 		</StackLayout>
 		<Button 
-			Text="Back" 
+			Text="Sign out" 
 			TextColor="Black"
 			FontSize="20"
 
